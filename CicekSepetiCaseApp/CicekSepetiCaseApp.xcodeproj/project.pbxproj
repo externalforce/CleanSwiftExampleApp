@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1D64C581E6F50E3AA5F3ED1 /* Pods_CicekSepetiCaseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A54D4144725B5FE1EBC1A0B /* Pods_CicekSepetiCaseApp.framework */; };
+		F1457B7622E1114B0021467E /* ProductListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1457B7222E1114B0021467E /* ProductListViewControllerTests.swift */; };
+		F1457B7722E1114B0021467E /* ProductListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1457B7322E1114B0021467E /* ProductListInteractorTests.swift */; };
+		F1457B7822E1114B0021467E /* ProductListWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1457B7422E1114B0021467E /* ProductListWorkerTests.swift */; };
+		F1457B7922E1114B0021467E /* ProductListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1457B7522E1114B0021467E /* ProductListPresenterTests.swift */; };
+		F1457B7B22E1174C0021467E /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1457B7A22E1174C0021467E /* ErrorModel.swift */; };
+		F1457B7E22E11ABC0021467E /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1457B7C22E11ABC0021467E /* EmptyCell.swift */; };
+		F1457B7F22E11ABC0021467E /* EmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1457B7D22E11ABC0021467E /* EmptyCell.xib */; };
+		F1D0A5BC22E04E5F0013969F /* ProductListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0A5B622E04E5F0013969F /* ProductListPresenter.swift */; };
+		F1D0A5BD22E04E5F0013969F /* ProductListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0A5B722E04E5F0013969F /* ProductListWorker.swift */; };
+		F1D0A5BE22E04E5F0013969F /* ProductListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0A5B822E04E5F0013969F /* ProductListRouter.swift */; };
+		F1D0A5BF22E04E5F0013969F /* ProductListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0A5B922E04E5F0013969F /* ProductListModels.swift */; };
+		F1D0A5C022E04E5F0013969F /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0A5BA22E04E5F0013969F /* ProductListViewController.swift */; };
+		F1D0A5C122E04E5F0013969F /* ProductListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0A5BB22E04E5F0013969F /* ProductListInteractor.swift */; };
+		F1D0A5C422E04F470013969F /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0A5C322E04F470013969F /* ProductModel.swift */; };
+		F1D0A5C722E04FC90013969F /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0A5C622E04FC90013969F /* ProductViewModel.swift */; };
+		F1D0A5C922E0619E0013969F /* ProductBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0A5C822E0619E0013969F /* ProductBaseModel.swift */; };
+		F1D0A5CD22E071290013969F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0A5CB22E071290013969F /* ProductCell.swift */; };
+		F1D0A5CE22E071290013969F /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1D0A5CC22E071290013969F /* ProductCell.xib */; };
+		F1EE511722DF54FD00A3642D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE511622DF54FD00A3642D /* AppDelegate.swift */; };
+		F1EE511C22DF54FD00A3642D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EE511A22DF54FD00A3642D /* Main.storyboard */; };
+		F1EE511E22DF54FE00A3642D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EE511D22DF54FE00A3642D /* Assets.xcassets */; };
+		F1EE512122DF54FE00A3642D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EE511F22DF54FE00A3642D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1457B6D22E1111B0021467E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1EE510B22DF54FD00A3642D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1EE511222DF54FD00A3642D;
+			remoteInfo = CicekSepetiCaseApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CED4B986290E73E14FDF39A /* Pods-CicekSepetiCaseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CicekSepetiCaseApp.debug.xcconfig"; path = "Target Support Files/Pods-CicekSepetiCaseApp/Pods-CicekSepetiCaseApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6A54D4144725B5FE1EBC1A0B /* Pods_CicekSepetiCaseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CicekSepetiCaseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9B4E03862D5FAA0C3FD096 /* Pods-CicekSepetiCaseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CicekSepetiCaseApp.release.xcconfig"; path = "Target Support Files/Pods-CicekSepetiCaseApp/Pods-CicekSepetiCaseApp.release.xcconfig"; sourceTree = "<group>"; };
+		F1457B6822E1111B0021467E /* CicekSepetiCaseAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CicekSepetiCaseAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1457B6C22E1111B0021467E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1457B7222E1114B0021467E /* ProductListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewControllerTests.swift; sourceTree = "<group>"; };
+		F1457B7322E1114B0021467E /* ProductListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListInteractorTests.swift; sourceTree = "<group>"; };
+		F1457B7422E1114B0021467E /* ProductListWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListWorkerTests.swift; sourceTree = "<group>"; };
+		F1457B7522E1114B0021467E /* ProductListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListPresenterTests.swift; sourceTree = "<group>"; };
+		F1457B7A22E1174C0021467E /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		F1457B7C22E11ABC0021467E /* EmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCell.swift; sourceTree = "<group>"; };
+		F1457B7D22E11ABC0021467E /* EmptyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyCell.xib; sourceTree = "<group>"; };
+		F1D0A5B622E04E5F0013969F /* ProductListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListPresenter.swift; sourceTree = "<group>"; };
+		F1D0A5B722E04E5F0013969F /* ProductListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListWorker.swift; sourceTree = "<group>"; };
+		F1D0A5B822E04E5F0013969F /* ProductListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListRouter.swift; sourceTree = "<group>"; };
+		F1D0A5B922E04E5F0013969F /* ProductListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListModels.swift; sourceTree = "<group>"; };
+		F1D0A5BA22E04E5F0013969F /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		F1D0A5BB22E04E5F0013969F /* ProductListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListInteractor.swift; sourceTree = "<group>"; };
+		F1D0A5C322E04F470013969F /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		F1D0A5C622E04FC90013969F /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		F1D0A5C822E0619E0013969F /* ProductBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductBaseModel.swift; sourceTree = "<group>"; };
+		F1D0A5CB22E071290013969F /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		F1D0A5CC22E071290013969F /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		F1EE511322DF54FD00A3642D /* CicekSepetiCaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CicekSepetiCaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EE511622DF54FD00A3642D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1EE511B22DF54FD00A3642D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1EE511D22DF54FE00A3642D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1EE512022DF54FE00A3642D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1EE512222DF54FE00A3642D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1457B6522E1111B0021467E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EE511022DF54FD00A3642D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D64C581E6F50E3AA5F3ED1 /* Pods_CicekSepetiCaseApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BFBF9690E44271E7C4E0F46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A54D4144725B5FE1EBC1A0B /* Pods_CicekSepetiCaseApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EE67ECD350B7280DB567ED9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CED4B986290E73E14FDF39A /* Pods-CicekSepetiCaseApp.debug.xcconfig */,
+				EB9B4E03862D5FAA0C3FD096 /* Pods-CicekSepetiCaseApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1457B6922E1111B0021467E /* CicekSepetiCaseAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1457B6C22E1111B0021467E /* Info.plist */,
+				F1457B7222E1114B0021467E /* ProductListViewControllerTests.swift */,
+				F1457B7322E1114B0021467E /* ProductListInteractorTests.swift */,
+				F1457B7422E1114B0021467E /* ProductListWorkerTests.swift */,
+				F1457B7522E1114B0021467E /* ProductListPresenterTests.swift */,
+			);
+			path = CicekSepetiCaseAppTests;
+			sourceTree = "<group>";
+		};
+		F1D0A5B522E04E3C0013969F /* Product List  */ = {
+			isa = PBXGroup;
+			children = (
+				F1D0A5B622E04E5F0013969F /* ProductListPresenter.swift */,
+				F1D0A5B722E04E5F0013969F /* ProductListWorker.swift */,
+				F1D0A5B822E04E5F0013969F /* ProductListRouter.swift */,
+				F1D0A5B922E04E5F0013969F /* ProductListModels.swift */,
+				F1D0A5BA22E04E5F0013969F /* ProductListViewController.swift */,
+				F1D0A5BB22E04E5F0013969F /* ProductListInteractor.swift */,
+			);
+			path = "Product List ";
+			sourceTree = "<group>";
+		};
+		F1D0A5C222E04F320013969F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1D0A5C322E04F470013969F /* ProductModel.swift */,
+				F1D0A5C822E0619E0013969F /* ProductBaseModel.swift */,
+				F1457B7A22E1174C0021467E /* ErrorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1D0A5C522E04FB40013969F /* View Model  */ = {
+			isa = PBXGroup;
+			children = (
+				F1D0A5C622E04FC90013969F /* ProductViewModel.swift */,
+			);
+			path = "View Model ";
+			sourceTree = "<group>";
+		};
+		F1D0A5CA22E0710E0013969F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F1D0A5CB22E071290013969F /* ProductCell.swift */,
+				F1D0A5CC22E071290013969F /* ProductCell.xib */,
+				F1457B7C22E11ABC0021467E /* EmptyCell.swift */,
+				F1457B7D22E11ABC0021467E /* EmptyCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F1EE510A22DF54FD00A3642D = {
+			isa = PBXGroup;
+			children = (
+				F1EE511522DF54FD00A3642D /* CicekSepetiCaseApp */,
+				F1457B6922E1111B0021467E /* CicekSepetiCaseAppTests */,
+				F1EE511422DF54FD00A3642D /* Products */,
+				7EE67ECD350B7280DB567ED9 /* Pods */,
+				6BFBF9690E44271E7C4E0F46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1EE511422DF54FD00A3642D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE511322DF54FD00A3642D /* CicekSepetiCaseApp.app */,
+				F1457B6822E1111B0021467E /* CicekSepetiCaseAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1EE511522DF54FD00A3642D /* CicekSepetiCaseApp */ = {
+			isa = PBXGroup;
+			children = (
+				F1D0A5CA22E0710E0013969F /* Cell */,
+				F1D0A5C522E04FB40013969F /* View Model  */,
+				F1D0A5C222E04F320013969F /* Model */,
+				F1D0A5B522E04E3C0013969F /* Product List  */,
+				F1EE511622DF54FD00A3642D /* AppDelegate.swift */,
+				F1EE511A22DF54FD00A3642D /* Main.storyboard */,
+				F1EE511D22DF54FE00A3642D /* Assets.xcassets */,
+				F1EE511F22DF54FE00A3642D /* LaunchScreen.storyboard */,
+				F1EE512222DF54FE00A3642D /* Info.plist */,
+			);
+			path = CicekSepetiCaseApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1457B6722E1111B0021467E /* CicekSepetiCaseAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1457B6F22E1111B0021467E /* Build configuration list for PBXNativeTarget "CicekSepetiCaseAppTests" */;
+			buildPhases = (
+				F1457B6422E1111B0021467E /* Sources */,
+				F1457B6522E1111B0021467E /* Frameworks */,
+				F1457B6622E1111B0021467E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1457B6E22E1111B0021467E /* PBXTargetDependency */,
+			);
+			name = CicekSepetiCaseAppTests;
+			productName = CicekSepetiCaseAppTests;
+			productReference = F1457B6822E1111B0021467E /* CicekSepetiCaseAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1EE511222DF54FD00A3642D /* CicekSepetiCaseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1EE512522DF54FE00A3642D /* Build configuration list for PBXNativeTarget "CicekSepetiCaseApp" */;
+			buildPhases = (
+				11AD09C971D9E99F270D58B7 /* [CP] Check Pods Manifest.lock */,
+				F1EE510F22DF54FD00A3642D /* Sources */,
+				F1EE511022DF54FD00A3642D /* Frameworks */,
+				F1EE511122DF54FD00A3642D /* Resources */,
+				3A32587F5744139FB8178526 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CicekSepetiCaseApp;
+			productName = CicekSepetiCaseApp;
+			productReference = F1EE511322DF54FD00A3642D /* CicekSepetiCaseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1EE510B22DF54FD00A3642D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					F1457B6722E1111B0021467E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F1EE511222DF54FD00A3642D;
+					};
+					F1EE511222DF54FD00A3642D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F1EE510E22DF54FD00A3642D /* Build configuration list for PBXProject "CicekSepetiCaseApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1EE510A22DF54FD00A3642D;
+			productRefGroup = F1EE511422DF54FD00A3642D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1EE511222DF54FD00A3642D /* CicekSepetiCaseApp */,
+				F1457B6722E1111B0021467E /* CicekSepetiCaseAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1457B6622E1111B0021467E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EE511122DF54FD00A3642D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EE512122DF54FE00A3642D /* LaunchScreen.storyboard in Resources */,
+				F1457B7F22E11ABC0021467E /* EmptyCell.xib in Resources */,
+				F1D0A5CE22E071290013969F /* ProductCell.xib in Resources */,
+				F1EE511E22DF54FE00A3642D /* Assets.xcassets in Resources */,
+				F1EE511C22DF54FD00A3642D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11AD09C971D9E99F270D58B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CicekSepetiCaseApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A32587F5744139FB8178526 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CicekSepetiCaseApp/Pods-CicekSepetiCaseApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CicekSepetiCaseApp/Pods-CicekSepetiCaseApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CicekSepetiCaseApp/Pods-CicekSepetiCaseApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1457B6422E1111B0021467E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1457B7622E1114B0021467E /* ProductListViewControllerTests.swift in Sources */,
+				F1457B7822E1114B0021467E /* ProductListWorkerTests.swift in Sources */,
+				F1457B7722E1114B0021467E /* ProductListInteractorTests.swift in Sources */,
+				F1457B7922E1114B0021467E /* ProductListPresenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EE510F22DF54FD00A3642D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D0A5C922E0619E0013969F /* ProductBaseModel.swift in Sources */,
+				F1D0A5BC22E04E5F0013969F /* ProductListPresenter.swift in Sources */,
+				F1D0A5CD22E071290013969F /* ProductCell.swift in Sources */,
+				F1EE511722DF54FD00A3642D /* AppDelegate.swift in Sources */,
+				F1D0A5BE22E04E5F0013969F /* ProductListRouter.swift in Sources */,
+				F1D0A5C122E04E5F0013969F /* ProductListInteractor.swift in Sources */,
+				F1457B7E22E11ABC0021467E /* EmptyCell.swift in Sources */,
+				F1457B7B22E1174C0021467E /* ErrorModel.swift in Sources */,
+				F1D0A5C722E04FC90013969F /* ProductViewModel.swift in Sources */,
+				F1D0A5BF22E04E5F0013969F /* ProductListModels.swift in Sources */,
+				F1D0A5C022E04E5F0013969F /* ProductListViewController.swift in Sources */,
+				F1D0A5BD22E04E5F0013969F /* ProductListWorker.swift in Sources */,
+				F1D0A5C422E04F470013969F /* ProductModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1457B6E22E1111B0021467E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1EE511222DF54FD00A3642D /* CicekSepetiCaseApp */;
+			targetProxy = F1457B6D22E1111B0021467E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1EE511A22DF54FD00A3642D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1EE511B22DF54FD00A3642D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1EE511F22DF54FE00A3642D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1EE512022DF54FE00A3642D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1457B7022E1111B0021467E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35FF9CLQ8T;
+				INFOPLIST_FILE = CicekSepetiCaseAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.murat.CicekSepetiCaseAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CicekSepetiCaseApp.app/CicekSepetiCaseApp";
+			};
+			name = Debug;
+		};
+		F1457B7122E1111B0021467E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35FF9CLQ8T;
+				INFOPLIST_FILE = CicekSepetiCaseAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.murat.CicekSepetiCaseAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CicekSepetiCaseApp.app/CicekSepetiCaseApp";
+			};
+			name = Release;
+		};
+		F1EE512322DF54FE00A3642D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1EE512422DF54FE00A3642D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1EE512622DF54FE00A3642D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CED4B986290E73E14FDF39A /* Pods-CicekSepetiCaseApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35FF9CLQ8T;
+				INFOPLIST_FILE = CicekSepetiCaseApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.murat.CicekSepetiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F1EE512722DF54FE00A3642D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9B4E03862D5FAA0C3FD096 /* Pods-CicekSepetiCaseApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35FF9CLQ8T;
+				INFOPLIST_FILE = CicekSepetiCaseApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.murat.CicekSepetiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1457B6F22E1111B0021467E /* Build configuration list for PBXNativeTarget "CicekSepetiCaseAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1457B7022E1111B0021467E /* Debug */,
+				F1457B7122E1111B0021467E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1EE510E22DF54FD00A3642D /* Build configuration list for PBXProject "CicekSepetiCaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EE512322DF54FE00A3642D /* Debug */,
+				F1EE512422DF54FE00A3642D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1EE512522DF54FE00A3642D /* Build configuration list for PBXNativeTarget "CicekSepetiCaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1EE512622DF54FE00A3642D /* Debug */,
+				F1EE512722DF54FE00A3642D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1EE510B22DF54FD00A3642D /* Project object */;
+}
